@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+</head>
+
+<body>
+    <h2>Passez votre commande</h2>
+    <form action="">
+    <fieldset>
+        <legend><strong>Votre commande</strong></legend>
+        <ul>
+            <li>
+                <img width="200px" src="https://www.galbani.fr/wp-content/uploads/2017/10/margherita.jpg" alt="margarita">
+                <input type="checkbox" name="margarita_choice" id="margarita_choice">
+                <input type="number" min=0 name="margarita_quantity" id="margarita_quantity">
+            </li>
+            <li>
+                <img width="200px" src="https://www.pate-a-pizza.com/wp-content/uploads/2016/10/pizza-kebab.jpg" alt="kebab">
+                <input type="checkbox" name="kebab_choice" id="kebab_choice">
+                <input type="number" min=0 name="kebab_quantity" id="kebab_quantity">
+            </li>
+            <li>
+                <img width="200px" src="https://fac.img.pmdstatic.net/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2Ffac.2F2018.2F07.2F30.2F6aaa4088-b316-4160-a97d-74ec7ca71b07.2Ejpeg/750x562/quality/80/crop-from/center/cr/wqkgVGhpbmtzdG9jay9HZXR0eSBJbWFnZXMgLyBGZW1tZSBBY3R1ZWxsZQ%3D%3D/pizza-royale.jpeg" alt="Royale">
+                <input type="checkbox" name="Royale_choice" id="Royale_choice">
+                <input type="number" min=0 name="Royale_quantity" id="Royale_quantity">
+            </li>
+            <li>
+                <img width="200px" src="https://assets.afcdn.com/recipe/20161130/7916_w1024h576c1cx2808cy1872.webp" alt="Calzone">
+                <input type="checkbox" name="Calzone_choice" id="Calzone_choice">
+                <input type="number" min=0 name="Calzone_quantity" id="Calzone_quantity">
+            </li>
+        </ul>
+    </fieldset>
+    <fieldset>
+        <legend><strong>Mode de Paiement & de livraison</strong></legend>
+        <select name="Paiement" id="Paiement">
+            <option value="CB">CB</option> 
+            <option value="Especes">Espèces</option> 
+            <option value="Bitcoin">Bitcoin</option> 
+        </select>
+        <input type="radio" name="Express" id="Express"> <label for="Express">Express</label>
+        <input type="radio" name="Normal" id="Normal"> <label for="Normal">Normal</label>
+    </fieldset>
+    <hr>
+    <fieldset>
+        <legend><strong>Infos personnelles</strong></legend>
+        <input type="text" name="Nom" id="Nom" placeholder="Nom">
+        <input type="text" name="Prenom" id="Prenom" placeholder="Prénom">
+        <br><br>
+        <input type="tel" name="Telephone" id="Telephone" placeholder="Téléphone">
+        <fieldset>
+            <legend><strong>Adresse</strong></legend>
+            <input type="text" name="Rue" id="Rue" placeholder="Rue">
+            <input type="text" name="Code_Postal" id="Code_Postal" placeholder="Code Postal">
+            <input type="text" name="Ville" id="Ville" placeholder="Ville">
+        </fieldset>
+        <strong>Infos supplémentaire</strong>
+        <br>
+        <textarea name="infossup" id="infossup"></textarea>
+    </fieldset>
+    <input type="submit" value="pizza_form">
+    </form>
+</body>
+</html>
