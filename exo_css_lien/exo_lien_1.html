@@ -1,0 +1,194 @@
+<!--
+CSS
+----------------------
+Ajouter le lien avec la feuille CSS
+
+Liste
+===
+Remplacer la puce du jeu  sonic par la tête de Sonic fourni
+Remplacer toute les autres puces par la megadrive mini
+
+Texte
+===
+ajouter une couleur de police bleu sega (#17569B) sur les titres 2
+taille de police standard => 15px;
+H1 => ratio 4
+H2 => ratio 2
+
+menu
+===
+afficher le somaire dans un rectangle gris avec une margin interieur en haut et en bas de 40px et droite et gauche de 20px.
+ajouter une marge interieur haute de 10px sur les éléments du somaire
+
+image
+===
+ajouter un cadre autour des images qui aux survol devient bleu sega
+la largeur maximum est de 300px
+
+Bouton
+===
+le bouton back to top fasse 50px de haut et de couleur bleu sega
+----------------------
+pour les plus avancés :
+===
+pivoté l'image de la megadrive de 30°
+coller le bouton back to top en bas et au centre de la page mais qu'il soit toujours visible
+-->
+
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Exo CSS - Megadrive</title>
+    <link rel="stylesheet" href="public/css/exo_css_lien.css">
+
+</head>
+
+<body>
+    <nav id="top">
+        <ul>
+            <a href="#mega">
+                <li>Megadrive</li>
+            </a>
+            <a href="#sonic">
+                <li>Sonic</li>
+            </a>
+            <a href="#ps4">
+                <li>Phantasy Star IV</li>
+            </a>
+        </ul>
+    </nav>
+
+    <h1>Megadrive</h1>
+    <section>
+        <h2 id="mega">La console</h2>
+        <img src="./public/image/Sega_Mega_Drive_PAL.jpg" alt="image Megadrive" class="img-tilt-30">
+        <!-- ajouter le lien relatif -->
+        <p>
+
+
+            La Mega Drive (メガドライブ, Mega Doraibu?), ou Genesis en Amérique du Nord, est une console de jeux vidéo de
+            quatrième génération conçue et commercialisée par le constructeur japonais Sega Enterprises, Ltd. La Mega
+            Drive
+            est la troisième console de Sega, elle succède à la Master System. Sega sort d'abord la console au Japon
+            sous le
+            nom de Mega Drive en 1988, la console est ensuite lancée en 1989 en Amérique du Nord, renommée Genesis sur
+            ce
+            territoire. En 1990, la console sort dans la plupart des autres territoires en tant que Mega Drive.
+        </p>
+    </section>
+    <section>
+        <h2>Les jeux</h2>
+        <p>
+            <ul>
+                <li class="sprite-sonic">
+                    <h3 id="sonic">Sonic the Hedgehog</h3>
+                    <img src="./public/image/jaquette-sonic-the-hedgehog-megadrive.jpg"
+                        alt="image Sonic">
+                    <!-- ajouter l'image de sonic en absolu -->
+                    <p>
+                        Sonic, ou Sonic the Hedgehog (ソニック・ザ・ヘッジホッグ, Sonikku za Hejjihoggu?), est une série de jeux
+                        vidéo,
+                        développée par la firme japonaise Sega, depuis 1991. Elle met en avant la mascotte de la firme
+                        Sonic, un hérisson bleu anthropomorphe, luttant contre l'antagoniste principal de la série, le
+                        Dr
+                        Robotnik. Sonic doit habituellement déjouer les plans de Robotnik dans son idée de domination du
+                        monde. Le premier jeu de la série, publié en 1991, est produit par le studio Sonic Team de Sega,
+                        à
+                        la suite d'une demande de ce dernier pour la conception d'une mascotte ; le titre est un franc
+                        succès, permet la production d'un bon nombre de suites et permet à Sega d'accéder au statut de
+                        l'une
+                        des plus imposantes sociétés vidéoludiques dans l'histoire des consoles 16-bit du début au
+                        milieu
+                        des années 1990.
+                    </p>
+                    <h4>
+                        Système de jeu
+                    </h4>
+                    <p>
+                        Sonic The Hedgehog est un jeu de plates-formes en 2D. Le joueur contrôle Sonic, un hérisson bleu
+                        très
+                        rapide. Il rencontrera sur sa route d'innombrables robots qu'il a la possibilité de détruire.
+                        Cela
+                        délivrera quelques animaux et rapportera des points au joueur. L'attaque que Sonic peut utiliser
+                        se
+                        nomme Super Sonic Spin Attack (attaque tournoyante supersonique en français) qui consiste à se
+                        mettre en boule pendant sa course pour charger ses ennemis. Il peut également sauter en boule
+                        sur
+                        ses adversaires.
+
+                        Le joueur trouvera aussi des anneaux éparpillés dans les niveaux. S'il en obtient 100, il gagne
+                        une
+                        vie supplémentaire. Lorsqu'il est touché par un ennemi ou par un piège, tous ses anneaux se
+                        dispersent et il n'a que quelques secondes pour les récupérer. S'il est touché alors qu'il ne
+                        possède plus d'anneau, il perd une vie. Sur les versions Master System et Game Gear, les anneaux
+                        perdus à la suite de l'attaque d'un ennemi ne peuvent pas être récupérés.
+                    </p>
+                    <h4>Niveaux speciaux</h4>
+                    <p>
+                        Lorsque le joueur atteint la fin d'un niveau avec au moins 50 anneaux, il peut sauter dans un
+                        anneau
+                        géant qui l'emmène dans un niveau spécial. Ce dernier ressemble à un labyrinthe flottant qui
+                        tourne
+                        sur lui-même. Sonic doit s'y frayer un chemin jusqu'à une Émeraude du Chaos. Il y en a six à
+                        récupérer dans tout le jeu. Ces joyaux (les émeraudes du chaos) ont de mystérieux pouvoirs et
+                        les
+                        posséder tous modifiera la fin du jeu. Si 50 anneaux sont recueillis avant que Sonic touche un
+                        panneau "GOAL" ou obtient l’Émeraude du Chaos, un "Continuer" sera attribué au joueur en sortant
+                        du
+                        niveau. Il y a au total dix occasions d'obtenir une Émeraude du Chaos, ce qui signifie que le
+                        joueur
+                        peut manquer un stage bonus quatre fois s'ils souhaite récupérer les six émeraudes restantes
+                        avant
+                        la fin du jeu.
+
+                        Sur les versions Game Gear et Master System du jeu, l'étape spéciale est une sorte de flipper
+                        géant
+                        truffé de ressorts où le joueur a environ une minute pour le traverser, sinon tous les bonus
+                        accumulés seront perdus. Cette étape spéciale permet au joueur de gagner un continue et une vie
+                        supplémentaire. Pour y accéder, il faut passer le panneau de fin de niveau avec plus de
+                        cinquante
+                        anneaux. Quant aux émeraudes du Chaos, elles doivent être trouvées dans les zones elles-mêmes
+                        dans
+                        l'acte 1 ou 2.
+                    </p>
+                </li>
+                <li>
+                    <h3 id="ps4">Phantasy Star IV</h3>
+                    <img src="https://i.ytimg.com/vi/aMjhsuVokBQ/hqdefault.jpg" alt="image Phantasy Star IV">
+                    <!-- ajouter une image de phantasy star depuis un autre site (lien externe) -->
+                    <p>
+                        Phantasy Star IV: The End of the Millennium (ファンタシースター 千年紀の終りに, Fantashī Sutā Sennenki No Owari
+                        Ni?)
+                        est un jeu vidéo de rôle développé par Sega AM7 et édité par Sega en 1994 sur Mega Drive. Il
+                        s'agit
+                        du quatrième épisode de la série Phantasy Star.
+                    </p>
+                    <h4>Trame</h4>
+                    <p>
+                        L'histoire de Phantasy star 4 nous narre les aventures de plusieurs élus dont le but est
+                        d'empêcher la résurrection d'une entité maléfique ayant autrefois fait régner la terreur dans
+                        toute la galaxie. Mais malgré tous leurs efforts, les ténèbres, par l'intermédiaire du mage noir
+                        Zio et de leur incarnation maléfique "Dark Force", réussissent leur plan pour les ramener à la
+                        vie. Aux héros maintenant de les arrêter.
+                    </p>
+                    <h4>Système de jeu</h4>
+                    <p>
+                        Le gameplay de ce 4e opus reprend en grande partie celui de Phantasy Star II :
+
+                        « Le jeu propose de diriger une équipe de personnages. Les combats se déroulent au tour par tour
+                        et le joueur donne d'abord les instructions aux personnages composant son équipe (jusqu'à cinq)
+                        et suit le déroulement du tour. Puis il donne les instructions pour le tour suivant etc. Les
+                        ordres donnés vont de l'utilisation de magie à l'attaque normale ou spéciale, en passant par
+                        l'utilisation d'objet ou la défense (à l'aide d'un bouclier). »
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </section>
+    <a href="#top"><button class="btn-sticky-bottom">Retour en haut</button></a>
+
+</body>
+
+</html>

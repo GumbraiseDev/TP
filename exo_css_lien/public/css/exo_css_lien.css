@@ -1,0 +1,61 @@
+* {
+    margin-top:0
+}
+body, html {
+    padding: 0;
+    width: 500px;
+    margin: 0 auto;
+    font-size: 15px
+}
+body {
+    position: absolute;
+    top: 0
+}
+.sprite-sonic {
+    list-style-image: url('../image/sprite_sonic_head_20.png');
+}
+#top ul {
+    background: darkgray;
+    width: 100px;
+    padding: 40px 20px
+}
+#top ul li {
+    list-style-image: url('../image/megadrive_20.png');
+    margin: 10px
+
+}
+.img-tilt-30 {
+    transform: rotate(30deg);
+    margin: 50px;
+    border: 7px solid transparent
+}
+h1 {
+    font-size: 4em
+}
+h2 {
+    color: #17569B;
+    font-size: 2em
+}
+img[alt="image Sonic"] {
+    width: 250px;
+    border: 7px solid #000;
+}
+.btn-sticky-bottom {
+    position: fixed;
+    bottom: 0;
+    background-color: #17569B;
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    color: #fff;
+    left: 50%;
+    border: none
+}
+img {
+
+    transition: .2s
+}
+img:hover {
+    border: 7px solid #17569B;
+}
+
