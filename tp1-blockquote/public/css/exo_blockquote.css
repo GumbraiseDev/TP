@@ -1,0 +1,16 @@
+html, body {
+    background: darkkhaki;
+}
+p:first-of-type {
+    text-align: right;
+    font-weight: bold;
+}
+
+blockquote {
+    background: lightblue;
+    padding: 15px
+}
+/* .author {
+    position: relative;
+    top: 35px; right: 0;
+} */
