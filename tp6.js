@@ -31,6 +31,6 @@ window.addEventListener("DOMContentLoaded", () => {
             {
                 alert('Ce n\'est pas un numéro de téléphone valide')
             }
-        }
+        })
     }
 })
