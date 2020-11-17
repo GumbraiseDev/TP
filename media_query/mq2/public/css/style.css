@@ -1,0 +1,139 @@
+body {
+    margin: 0; padding: 0
+}
+@media screen and (min-width: 1200px) {
+    body{
+        background: #daa520;
+        margin: auto;
+        width: 1000px
+    }
+    img {
+        width: 250px
+    }
+    p {
+        font-size: 12px
+    }
+    nav {
+        background: #e7a550;
+        width: 100%
+    }
+    article {
+        background: #e7a550;
+        border: solid 1px black
+    }
+    div {
+        height: 50px;
+        width: 200px;
+        font-size: 12px;
+        display: inline-block;
+    }
+    nav div {
+        border: solid 1px white;
+
+    }
+    button {
+        height: 50px;
+        width: 100px;
+        font-size: 12px
+    }
+    
+    footer {
+        background: #e7a550;
+        text-align: center;
+    }
+    footer div p{
+        font-size: 12px
+    }
+}
+@media screen and (max-width: 1200px) and (min-width: 720px) {
+    
+    p {
+        font-size: 12px
+    }
+    article {
+        background: #90ee90;
+        border: solid 1px black
+    }
+    div {
+        height: 50px;
+        width: 200px;
+        font-size: 12px;
+        display: inline-block;
+    }
+    button {
+        height: 50px;
+        width: 100px;
+        font-size: 12px
+    }
+    
+    footer {
+        background: #d3d3d3;
+        text-align: center;
+    }
+    footer div p{
+        font-size: 38px
+    }
+}
+@media screen and (max-width: 720px) and (min-width: 480px) {
+    img {
+        width: 100%;
+    }
+    p {
+        font-size: 12px
+    }
+    article {
+        background: #d3d3d3;
+        border: solid 1px black
+    }
+    div {
+        height: 50px;
+        font-size: 28px;
+        display: inline-block;
+    }
+    button {
+        height: 50px;
+        width: 100px;
+        border-radius: 10px;
+        font-size: 22px
+    }
+    a {
+        color: red;
+    }
+    footer {
+        background: #d3d3d3;
+        text-align: center;
+    }
+    footer div p{
+        font-size: 38px
+    }
+}
+@media screen and (max-width: 480px) and (min-width: 0px) {
+    img {
+        width: 100%;
+    }
+    p {
+        display: none
+    }
+    article {
+        background: #f08080;
+        border: solid 1px black
+    }
+    div {
+        background: lightblue;
+        border: solid 1px white;
+        height: 50px;
+        font-size: 28px
+    }
+    button {
+        height: 70px;
+        width: 60px;
+        border-radius: 10px;
+        font-size: 22px
+    }
+    a {
+        color: red;
+    }
+    footer {
+        display:none
+    }
+}
